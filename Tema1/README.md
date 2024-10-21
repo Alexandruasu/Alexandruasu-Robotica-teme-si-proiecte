@@ -45,4 +45,5 @@ Acest proiect simulează o **stație de încărcare** utilizând o placă Arduin
 
 Schema electrică a proiectului a fost realizată în Tinkercad
 
+![Imagine TinkerCad](./imagini/TinkerCad2.png)
 ![Imagine TinkerCad](./imagini/TinkerCad.png)
