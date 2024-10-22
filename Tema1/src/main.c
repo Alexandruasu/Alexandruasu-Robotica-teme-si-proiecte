@@ -14,7 +14,7 @@ const int buttonStart = 3;  // Buton Start
 const int buttonStop = 2;   // Buton Stop
 
 const unsigned long CHARGING_STEP_INTERVAL = 3000;  // Timpul între pașii de încărcare (3 secunde)
-const unsigned long BUTTON_HOLD_THRESHOLD = 1000;   // Prag pentru apăsare lungă (1 secundă)
+const unsigned long BUTTON_HOLD_THRESHOLD = 100;   // Prag pentru apăsare lungă (1 secundă)
 const unsigned long LED_BLINK_DELAY = 500;          // Delay pentru clipirea LED-urilor (0.5 secunde)
 const int BLINK_COUNT = 3;                          // Număr de clipiri pentru LED-uri
 
@@ -55,7 +55,7 @@ void loop() {
     while (digitalRead(buttonStop) == LOW) {
       pressDuration++;
       delay(10);
-      if (pressDuration > BUTTON_HOLD_THRESHOLD / 10) {  // Apăsare lungă (1 sec)
+      if (pressDuration > BUTTON_HOLD_THRESHOLD ) {  // Apăsare lungă (1 sec)
         stopCharging();
         break;
       }
