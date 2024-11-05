@@ -35,7 +35,7 @@ Acest proiect simulează o **stație de încărcare** utilizând o placă Arduin
 ![Imagine 1](./imagini/imagine1.jpeg)
 ![Imagine 2](./imagini/imagine2.jpeg)
 ![Imagine 3](./imagini/imagine3.jpeg)
-![Imagine 4](./imagini/imagine3.jpeg)
+![Imagine 4](./imagini/imagine4.jpeg)
 
 ## Link video Youtube cu funcționalitatea montajului fizic
 
