@@ -73,5 +73,5 @@ Tema constă într-un joc de tastare pe Arduino, unde utilizatorul trebuie să t
 
 Schema electrică a proiectului a fost realizată în Tinkercad
 
-![Imagine TinkerCad](./imagini/TinkerCad.png)
+![Imagine TinkerCad](./imagini/TinkerCad1.png)
 ![Imagine TinkerCad](./imagini/TinkerCad2.png)
