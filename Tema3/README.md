@@ -55,9 +55,6 @@ Pe tot parcursul jocului display-ul LCD va arata punctajul fiecarui jucator
 Servomotorul se rotește pe parcursul jocului, indicând progresul. O rotație completă a servomotorului marchează sfârșitul jocului (voi decideti cat de repede se misca).
 La final, LCD-ul afișează numele câștigătorului și scorul final pentru câteva secunde, apoi revine la ecranul de start cu mesajul de bun venit.
 
-
-# Tema 3: Quick Time - Joc de Reflex Competitiv
-
 ## Descriere
 Această temă implică dezvoltarea unui joc de reflex competitiv pentru doi jucători. Proiectul testează viteza de reacție a participanților, care trebuie să apese butoanele asociate culorii afișate pe LED-urile RGB, acumulând puncte. Jocul utilizează două plăci Arduino Uno care comunică prin protocolul SPI pentru a controla componentele.
 
